@@ -1,0 +1,158 @@
+$font-card: Montserrat, helvetica;
+.input {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 79vw;
+  @media screen and (min-width: 768px) {
+    padding: 15px;
+    width: 24vw;
+    border-radius: 10px;
+    margin-left: 1%;
+  }
+  @media screen and (min-width: 1400px) {
+    padding: 39px;
+    width: 24vw;
+    border-radius: 15px;
+    margin-left: 1%;
+  }
+}
+.footer {
+  position: relative;
+  margin-top: 40px;
+  &__block {
+    margin-top: 100%;
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
+    }
+    &-image {
+      @media screen and (min-width: 768px) {
+        width: 100%;
+      }
+    }
+    &-text {
+      position: absolute;
+      top: 1%;
+      left: 3%;
+      font-size: 20px;
+      font-weight: 100;
+      color: white;
+      @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-size: 17px;
+        font-weight: 100;
+        color: white;
+      }
+      @media screen and (min-width: 1400px) {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+      }
+    }
+    &-input {
+      position: absolute;
+      top: 45%;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 27%;
+        left: 59%;
+      }
+    }
+    &-button {
+      position: absolute;
+      top: 59%;
+      width: 79vw;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      background: linear-gradient(45deg, #00ff55b6, #bdff07);
+      border-radius: 8px;
+      font-size: 20px;
+      text-align: center;
+      color: white;
+      @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 39%;
+        left: 47%;
+        width: 24vw;
+        padding: 15px;
+        background: linear-gradient(45deg, #00ff55b6, #bdff07);
+        border-radius: 10px;
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      @media screen and (min-width: 1400px) {
+        position: absolute;
+        top: 39%;
+        left: 47%;
+        width: 24vw;
+        padding: 39px;
+        background: linear-gradient(45deg, #00ff55b6, #bdff07);
+        border-radius: 15px;
+        font-size: 29px;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    }
+    &-descripton {
+      position: absolute;
+      top: 73%;
+      font-size: 11px;
+      text-align: center;
+      width: 100%;
+      color: white;
+      @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 60%;
+        font-size: 12px;
+        color: white;
+        padding-left: 22%;
+      }
+      @media screen and (min-width: 1400px) {
+        position: absolute;
+        top: 56%;
+        font-size: 18px;
+        color: white;
+        padding-left: 22%;
+      }
+    }
+    &-info {
+      position: absolute;
+      top: 92%;
+      font-size: 12px;
+      text-align: center;
+      width: 100%;
+      color: white;
+      @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        font-size: 16px;
+        color: white;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
